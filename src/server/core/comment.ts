@@ -11,7 +11,7 @@ const TRIGGERS = [
 // Set your Render.com URL here after deploying the Python service.
 // Example: https://tywin-sentiment-service.onrender.com
 // Leave empty to always use the local fallback.
-const SENTIMENT_SERVICE_URL = process.env['SENTIMENT_SERVICE_URL'] ?? '';
+const SENTIMENT_SERVICE_URL = process.env['SENTIMENT_SERVICE_URL'] ?? 'https://lion-tywin-bot.onrender.com';
 
 type Sentiment = 'positive' | 'negative' | 'neutral';
 
