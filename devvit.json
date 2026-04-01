@@ -39,6 +39,11 @@
         "SUBMIT_COMMENT",
         "SUBSCRIBE_TO_SUBREDDIT"
       ]
+    },
+    "http": {
+      "domains": [
+        "lion-tywin-bot.onrender.com"
+      ]
     }
   },
   "triggers": {
